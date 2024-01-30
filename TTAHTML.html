@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Twelve Tone Analyzer</title>
+  </head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <body>
+    <div id="header">
+      <h1>Twelve Tone Analyzer</h1>
+      <p>Please enter your row with the following conventions:</p>
+      <ul>
+        <li>Flats = f</li>
+        <li>Sharps = s</li>
+        <li>a, b, c, d, e, f, g</li>
+        <li>af, bf, df, ef</li>
+        <li>cs, fs, gs</li>
+      <ul>
+    </div>
+    <br>
+
+    <div id="userInput">
+      <!-- <form action=""> sends the submitted data to another file -->
+      <form>
+        <input type="text" id="note01" name="note01" size=2 pattern="[a-g]|[a,b,d,e][f]|[c,f,g][s]" required>
+        <input type="text" id="note02" name="note02" size=2 pattern="[a-g]|[a,b,d,e][f]|[c,f,g][s]" required>
+        <input type="text" id="note03" name="note03" size=2 pattern="[a-g]|[a,b,d,e][f]|[c,f,g][s]" required>
+        <input type="text" id="note04" name="note04" size=2 pattern="[a-g]|[a,b,d,e][f]|[c,f,g][s]" required>
+        <input type="text" id="note05" name="note05" size=2 pattern="[a-g]|[a,b,d,e][f]|[c,f,g][s]" required>
+        <input type="text" id="note06" name="note06" size=2 pattern="[a-g]|[a,b,d,e][f]|[c,f,g][s]" required>
+        <input type="text" id="note07" name="note07" size=2 pattern="[a-g]|[a,b,d,e][f]|[c,f,g][s]" required>
+        <input type="text" id="note08" name="note08" size=2 pattern="[a-g]|[a,b,d,e][f]|[c,f,g][s]" required>
+        <input type="text" id="note09" name="note09" size=2 pattern="[a-g]|[a,b,d,e][f]|[c,f,g][s]" required>
+        <input type="text" id="note10" name="note10" size=2 pattern="[a-g]|[a,b,d,e][f]|[c,f,g][s]" required>
+        <input type="text" id="note11" name="note11" size=2 pattern="[a-g]|[a,b,d,e][f]|[c,f,g][s]" required>
+        <input type="text" id="note12" name="note12" size=2 pattern="[a-g]|[a,b,d,e][f]|[c,f,g][s]" required>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+      </form>
+    </div>
+    <br>
+    
+    <table>
+      <tr>
+        <td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+      </tr>
+        <td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+      </tr>
+        <td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+      </tr>
+        <td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+      </tr>
+        <td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+      </tr>
+        <td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+      </tr>
+        <td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+      </tr>
+        <td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+      </tr>
+        <td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+      </tr>
+        <td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+      </tr>
+        <td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+      </tr>
+        <td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+      </tr>
+    </table>
+  </body>
+</html>
+
+
+<!-- COMMENT -->
